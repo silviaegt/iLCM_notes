@@ -8,11 +8,12 @@ Specifications?
 1. Select your corpus in "which corpus?"
 2. Go to "Search Results" Window
 3. Make a Search, the default option is "Simple search". Terms may be combined with boolean options such as: 
-\+ = AND
-\# = OR
+>\+ = AND ( "method + methodology" will yield results with both words)
+\# = OR  "método + metodolgía" will yield res
 \- = NOT
-4. 
-5. 
+
+For instance:  
+the search for
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODE2NTk4NF19
+eyJoaXN0b3J5IjpbOTMzMDI5NjVdfQ==
 -->
