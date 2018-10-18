@@ -1,9 +1,13 @@
 # Corpus Analysis with iLCM
 
-## Upload your corpus
+
+## 1.  Download the tool
+
+## 2. Upload your corpus
+
 Specifications?
 
-## Exploring your corpus
+## 3. Explore your corpus
 
 ### Search
 
@@ -48,8 +52,13 @@ POS-Tagging (which algorithm, language default??)
 Entity tags (same questions as above, also: can one train the data / use ML to improve results??)
 
 
-### Facets, 
+### Facets
+
+Didn't really understand what happens here
+
+## . Explore your corpus
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTExOTIzODksMTI2NDQ5NzcxMCwxMT
+eyJoaXN0b3J5IjpbLTE2NzE4NzgzNjksMTI2NDQ5NzcxMCwxMT
 AxNjU5Mzk0LDc2MDY5MjY1OV19
 -->
