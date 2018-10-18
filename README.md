@@ -36,7 +36,16 @@ name of your document | format?? | YYYY/MM/DD | ?? | only one occurrence by docu
 
 #### Custom (??) 
 
+
+### Time Series
+
+Plot (describe options??)  / frequencies - raw (??)
+Heatmap (download possiblities??)
+
+### Document View
+
+POS-Tagging (which 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ5NDU1MjA2LDEyNjQ0OTc3MTAsMTEwMT
-Y1OTM5NCw3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbLTU5MzA5MzE3OCwxMjY0NDk3NzEwLDExMD
+E2NTkzOTQsNzYwNjkyNjU5XX0=
 -->
