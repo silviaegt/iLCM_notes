@@ -16,7 +16,14 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 ## 2. Upload your corpus
 
-Specifications?
+
+### CSV
+The first option is importing your data as a csv file, which can basically have any format, but they need to be stored in the directory: /home/username/.iLCM/data/import_data/
+The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+
+
+The second option is importing multiple text files, like .pdf, .txt, .doc, .docx, where every file is imported as a single document. The import is only possible, if the user has installed the app on his local machine. 
+
 
 ## 3. Explore your corpus
 
@@ -92,7 +99,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MD
-M3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3
-MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbLTE3MzU3NzE3Miw3Nzg3NDA3MzcsLTE4Mj
+c5NjQxLC0xMTUwMzc4MjU1LC00OTM1MzgwMTcsLTIwNjMzNDk0
+NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MDY5MjY1OV19
 -->
