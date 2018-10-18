@@ -19,9 +19,17 @@ id | id_doc | score | dataset | section |
 
 
 
+And
+
+
+
+
 title | author | date  | token| keyword.and.context
 -- | --  | -- | -- | -- |
-name of your document | person or institution responsible for the creation of it (format??) | format?? | ?? | only one occurrence by document??
+name of your document | person or institution responsible for the creation of it (format??) | YYYY/MM/DD | ?? | only one occurrence by document??
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbMTcxMTcxMjU3MiwxMTAxNjU5Mzk0LDc2MD
+Y5MjY1OV19
 -->
