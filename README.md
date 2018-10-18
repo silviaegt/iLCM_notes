@@ -11,7 +11,7 @@ Specifications?
 >\+ = AND ( "method + methodology" will yield results with both words, and so on)
 \# = OR
 \- = NOT
-4. Once you've searched for a word or a group of terms using the flashcards above, your results will be shown in a table with ten headings, five 
+4. Once you've searched for a word or a group of terms using the flashcards above, your results will be shown in a table with ten headings
 
 id | id_doc | score | dataset | section | 
 -- | --| -- | -- | -- | 
@@ -21,7 +21,7 @@ id | id_doc | score | dataset | section |
 
 title | author | date  | token| keyword.and.context
 -- | --  | -- | -- | -- |
-name of your document | person or institution responsible for the creation of it (format?) | format? | ?? | ??
+name of your document | person or institution responsible for the creation of it (format??) | format?? | ?? | only one occurrence by document??
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTM2OTUzMyw3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
 -->
