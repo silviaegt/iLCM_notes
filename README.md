@@ -58,7 +58,9 @@ Didn't really understand what happens here
 
 ## 4. Work with your collection
 
-First go to Task 
+First go to "Task Scheduler"; select your collection and the analysis you want to run
+
+(didnt' understand what "Download 
 
 ### Topic Models
 
@@ -76,6 +78,6 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyMjg2NDA3LC0yMDYzMzQ5NDc2LDEyNj
+eyJoaXN0b3J5IjpbMjYxMzA4NDI1LC0yMDYzMzQ5NDc2LDEyNj
 Q0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
 -->
