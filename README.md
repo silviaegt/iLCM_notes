@@ -44,8 +44,12 @@ Heatmap (download possiblities??)
 
 ### Document View
 
-POS-Tagging (which 
+POS-Tagging (which algorithm, language default??)
+Entity tags (same questions as above, also: can one train the data / use ML to improve results??)
+
+
+### Facets, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzA5MzE3OCwxMjY0NDk3NzEwLDExMD
-E2NTkzOTQsNzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbLTIwMTExOTIzODksMTI2NDQ5NzcxMCwxMT
+AxNjU5Mzk0LDc2MDY5MjY1OV19
 -->
