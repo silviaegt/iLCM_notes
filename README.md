@@ -56,9 +56,21 @@ Entity tags (same questions as above, also: can one train the data / use ML to i
 
 Didn't really understand what happens here
 
-## . Explore your corpus
+## 4. Work with your collection
+
+### Topic Models
+
+### Term Frequency Extraction
+
+### Dictionary Frequency Extraction
+
+### Classification
+
+### Cooccurrences
+
+### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzE4NzgzNjksMTI2NDQ5NzcxMCwxMT
+eyJoaXN0b3J5IjpbLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMT
 AxNjU5Mzk0LDc2MDY5MjY1OV19
 -->
