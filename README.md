@@ -58,7 +58,12 @@ Didn't really understand what happens here
 
 ## 4. Work with your collection
 
+First go to Task 
+
 ### Topic Models
+
+Algorithm??
+Pre-processing??
 
 ### Term Frequency Extraction
 
@@ -66,11 +71,11 @@ Didn't really understand what happens here
 
 ### Classification
 
-### Cooccurrences
+### Co-occurrences
 
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMT
-AxNjU5Mzk0LDc2MDY5MjY1OV19
+eyJoaXN0b3J5IjpbMjIyMjg2NDA3LC0yMDYzMzQ5NDc2LDEyNj
+Q0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
 -->
