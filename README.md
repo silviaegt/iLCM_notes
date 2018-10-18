@@ -9,7 +9,11 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Download pre-requisites
 	+ Docker CE:
 		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
-		+ 
+		+ Windows
+		+ Mac
+	+ Docker Compose
+	+ R (and perhaps also RStudio)
+	
 3. Dowload the Install_ilcm.zip 
 4. 
 
@@ -99,7 +103,8 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzU3NzE3Miw3Nzg3NDA3MzcsLTE4Mj
-c5NjQxLC0xMTUwMzc4MjU1LC00OTM1MzgwMTcsLTIwNjMzNDk0
-NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MDY5MjY1OV19
+eyJoaXN0b3J5IjpbLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0xOD
+I3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5
+NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ
+==
 -->
