@@ -5,7 +5,10 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 ## 1.  Download the tool
 
-Go t
+1. Go to https://ilcm.informatik.uni-leipzig.de/software/download/
+2. Dowload the Install_ilcm.zip 
+3. 
+
 
 ## 2. Upload your corpus
 
@@ -85,7 +88,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyODAzMDU3LC0xMTUwMzc4MjU1LC00OT
+eyJoaXN0b3J5IjpbLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OT
 M1MzgwMTcsLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5
 Mzk0LDc2MDY5MjY1OV19
 -->
