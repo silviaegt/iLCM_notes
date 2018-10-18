@@ -6,8 +6,12 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 ## 1.  Download the tool
 
 1. Go to https://ilcm.informatik.uni-leipzig.de/software/download/
-2. Dowload the Install_ilcm.zip 
-3. 
+2. Download pre-requisites
+	+ Docker CE:
+		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
+		+ 
+3. Dowload the Install_ilcm.zip 
+4. 
 
 
 ## 2. Upload your corpus
@@ -88,7 +92,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OT
-M1MzgwMTcsLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5
-Mzk0LDc2MDY5MjY1OV19
+eyJoaXN0b3J5IjpbNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MD
+M3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3
+MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
 -->
