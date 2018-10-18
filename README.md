@@ -15,7 +15,7 @@ Specifications?
 
 id | id_doc | score | dataset | section | 
 -- | --| -- | -- | -- | 
-?? | number you give to identify your document | ?? | ?? | is this only thought for newspapers data??
+?? | number you give to identify your document | ?? | name of your collection (format, good practices??) | is this only thought for newspapers data??
 
 
 
@@ -30,6 +30,6 @@ name of your document | format?? | YYYY/MM/DD | ?? | only one occurrence by docu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjUxNzkyNzIsMTEwMTY1OTM5NCw3Nj
-A2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MD
+Y5MjY1OV19
 -->
