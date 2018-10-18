@@ -13,30 +13,21 @@ Specifications?
 \- = NOT
 4. Once you've searched for a word or a group of terms using the flashcards above, your results will be shown in a table like this one:
 id
-
 id_doc
-
 score
-
 dataset
-
 section
-
 title
-
 author
-
 date
-
 token
-
 keyword.and.context
 
-Cabecera A | Cabecera B | Cabecera B | Cabecera B
-| Cabecera B | Cabecera B | Cabecera B | Cabecera B | Cabecera B | Cabecera B | Cabecera B | Cabecera B
--- | --  | --
+id | Cabecera B | Cabecera B | Cabecera B
+| id | id_doc | score | dataset | section | title | author | date
+-- | --  | -- | -- | -- | -- | --| -- | -- | -- | -- | -- | --  | --  | -- 
 Campo A0 | Campo B0
 Campo A1 | Campo B1
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MjEwNzg3NV19
+eyJoaXN0b3J5IjpbLTE2ODI1ODcwMzBdfQ==
 -->
