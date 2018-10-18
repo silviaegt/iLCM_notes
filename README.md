@@ -5,6 +5,10 @@ Specifications?
 
 ## Exploring your corpus
 
+### Search
+
+#### Simple Search
+
 1. Select your corpus in "which corpus?"
 2. Go to "Search Results" Window
 3. Make a Search, the default option is "Simple search". Terms may be combined with boolean options such as: 
@@ -28,8 +32,11 @@ title | author | date  | token| keyword.and.context
 -- | --  | -- | -- | -- |
 name of your document | format?? | YYYY/MM/DD | ?? | only one occurrence by document??
 
+#### Detailed (maybe)
+
+#### Custom (??) 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MD
-Y5MjY1OV19
+eyJoaXN0b3J5IjpbNDQ5NDU1MjA2LDEyNjQ0OTc3MTAsMTEwMT
+Y1OTM5NCw3NjA2OTI2NTldfQ==
 -->
