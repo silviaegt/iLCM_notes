@@ -15,7 +15,7 @@ Specifications?
 
 id | id_doc | score | dataset | section | 
 -- | --| -- | -- | -- | 
-?? | number you give to identify your document | ?? | ?? | ??
+?? | number you give to identify your document | ?? | ?? | is this only thought for newspapers data??
 
 
 
@@ -26,10 +26,10 @@ And
 
 title | author | date  | token| keyword.and.context
 -- | --  | -- | -- | -- |
-name of your document | person or institution responsible for the creation of it (format??) | YYYY/MM/DD | ?? | only one occurrence by document??
+name of your document | format?? | YYYY/MM/DD | ?? | only one occurrence by document??
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTcxMjU3MiwxMTAxNjU5Mzk0LDc2MD
-Y5MjY1OV19
+eyJoaXN0b3J5IjpbLTE5NjUxNzkyNzIsMTEwMTY1OTM5NCw3Nj
+A2OTI2NTldfQ==
 -->
