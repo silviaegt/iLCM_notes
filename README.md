@@ -60,7 +60,10 @@ Didn't really understand what happens here
 
 First go to "Task Scheduler"; select your collection and the analysis you want to run
 
-(didnt' understand what "Download Collection as CSV does) 
+(didnt' understand what 
++ "Download Collection as CSV" does
++ Nor "Save Collection as token object"
++ Nor "Save Collection as meta object") 
 
 ### Topic Models
 
@@ -78,6 +81,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzUzODAxNywtMjA2MzM0OTQ3NiwxMj
-Y0NDk3NzEwLDExMDE2NTkzOTQsNzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbLTgzMjY0MjcyLC00OTM1MzgwMTcsLTIwNj
+MzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MDY5MjY1
+OV19
 -->
