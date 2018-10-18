@@ -15,12 +15,13 @@ Specifications?
 
 id | id_doc | score | dataset | section | 
 -- | --| -- | -- | -- | 
-?? | number you give to identify your document | ?? | .. | ...
+?? | number you give to identify your document | ?? | ?? | ??
 
 
 
 title | author | date  | token| keyword.and.context
 -- | --  | -- | -- | -- |
+name of your document | person or institution responsible for the creation of it (format?) | format? | ?? | ??
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbMTY0MTM2OTUzMyw3NjA2OTI2NTldfQ==
 -->
