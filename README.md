@@ -1,5 +1,7 @@
 # Corpus Analysis with iLCM
 
+Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
+
 
 ## 1.  Download the tool
 
@@ -81,7 +83,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjY0MjcyLC00OTM1MzgwMTcsLTIwNj
-MzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MDY5MjY1
-OV19
+eyJoaXN0b3J5IjpbLTExNTAzNzgyNTUsLTQ5MzUzODAxNywtMj
+A2MzM0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NTkzOTQsNzYwNjky
+NjU5XX0=
 -->
