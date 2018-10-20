@@ -10,7 +10,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	+ Docker CE:
 		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
 		+ [Windows 10 Pro](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
-		+ Windows 10 Home -- you will need to install [DockerToolbox](https://docs.docker.com/toolbox/toolbox_install_windows/); to check your installation has been sucessful click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-3-verify-your-installation)
+		+ Windows 10 Home -- you will need to install [DockerToolbox](https://docs.docker.com/toolbox/toolbox_install_windows/); to check your installation has been sucessful click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-3-verify-your-installation) (you might need to uninstall and install again your VirtualBox)
 		+ Mac
 	+ Docker Compose
 	+ R (and perhaps also RStudio)
@@ -104,8 +104,9 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMj
-E2NTk5NDE0LC0xOTQ5NTQxODQzLDc3ODc0MDczNywtMTgyNzk2
-NDEsLTExNTAzNzgyNTUsLTQ5MzUzODAxNywtMjA2MzM0OTQ3Ni
-wxMjY0NDk3NzEwLDExMDE2NTkzOTQsNzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtOD
+k5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQw
+NzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC
+0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2
+OTI2NTldfQ==
 -->
