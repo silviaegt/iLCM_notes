@@ -52,11 +52,11 @@ Here the user is offered 3 functionalities. First, if the user is familiar with 
 In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
 
 ## CSV file
-The csv files the user wants to input, need to be stored in the directory: /home/username/.iLCM/data/import_data/ . The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+The input csv files need to be stored in the directory: `/home/username/.iLCM/data/import_data/` . 
 
-```{r import csv 1, echo=FALSE,out.width = '100%',fig.cap="Import .csv-files",fig.pos="H"}
-knitr::include_graphics("screenshots_for_starting_guide/importcsv_1.png")
-```
+The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+
+
 Once the file is loaded into the tool, the user can either check whether the data is imported correctly or directly start the mapping.
 ```{r import csv check, echo=FALSE,out.width = '100%',fig.cap="check if .csv-file is imported correctly",fig.pos="H"}
 knitr::include_graphics("screenshots_for_starting_guide/check_csv.png")
@@ -96,7 +96,7 @@ The second option is importing multiple text files, like .pdf, .txt, .doc, .docx
 In this section the user can search the database, get extra information about the search results, annotate text, and in the end create a collection of documents, which serves as the starting point for further analysis.
 
 ?? What if one wants to search the whole corpus?
-?? What if one wants to really "explore" following EDA principles (i.e. get 
+?? What if one wants to really "explore" (get most frequent words, tendencies, etc)
 
 ### Search
 
@@ -170,11 +170,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTgzMDg2MzEsLTExMTExNTk0MDgsLT
-IzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC0xMDQ4
-MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5OTY1MD
-YxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3ODc0MDczNywt
-MTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzODAxNywtMjA2Mz
-M0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NTkzOTQsNzYwNjkyNjU5
-XX0=
+eyJoaXN0b3J5IjpbMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMj
+M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
+MjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNj
+EyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0x
+ODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMz
+Q5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTld
+fQ==
 -->
