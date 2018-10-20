@@ -22,12 +22,61 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 ### Installing the tool
 
-1. ?? Didn't find ---- install_ilcm_toolbox.R Script 
+1. ?? Didn't find ---- `install_ilcm_toolbox.R`   
 2. Run the docker_commands.R commands in the docker-console by hand.
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest` Got the following message:
     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
     Had to do:
      `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/) 
+
+
+##Collection Worker
+
+The Collection Worker is the tab where the user starts various NLP algorithms. Also the results of the started analysis can be accessed in the Collection Worker.
+
+##Categories
+
+In the Categories tab the user can have a closer look at the made annotations, create new annotation schemes or create further annotations.
+
+##Scripts
+
+Here the user is offered 3 functionalities. First, if the user is familiar with R, he can type R-commands, which are then executed. This can be useful for debugging or reconfiguring some default settings. The second option is given by the possibility of creating or manipulating blacklists. These can be used in the preprocessing chain when applying different NLP algorithms. The third option is changing the scripts of the NLP algorithms. The user should be enabled, to create different versions of the script. But he has to keep in mind though, that he has to produce the same output formats like the original script did. This is the case, because the result visualisation is dependent on certain variables and variable names.
+
+##Importer
+
+In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
+
+# Import your own Documents
+The first thing you might want to do, is importing your own data into the tool. For this purpose we have 2 possibilities. The first option is importing your data as a csv file, which can basically have any format. The second option is importing multiple text files, like .pdf, .txt, .doc, .docx, where every file is imported as a single document. The import is only possible, if the user has installed the app on his local machine. 
+
+## CSV file
+The csv files the user wants to input, need to be stored in the directory: /home/username/.iLCM/data/import_data/ . The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+
+```{r import csv 1, echo=FALSE,out.width = '100%',fig.cap="Import .csv-files",fig.pos="H"}
+knitr::include_graphics("screenshots_for_starting_guide/importcsv_1.png")
+```
+Once the file is loaded into the tool, the user can either check whether the data is imported correctly or directly start the mapping.
+```{r import csv check, echo=FALSE,out.width = '100%',fig.cap="check if .csv-file is imported correctly",fig.pos="H"}
+knitr::include_graphics("screenshots_for_starting_guide/check_csv.png")
+```
+In the database the texts are saved with certain metadata-fields. Very often they will not perfectly match the metadata the user has. Therefore the user might want to abuse some given metadata fields for his purposes (e.g. publisher, section...). After clicking "Start Mapping" the user can see 2 data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. 
+```{r import csv mapping, echo=FALSE,out.width = '100%',fig.cap="mapping of csv columns to iLCM database-format",fig.pos="H"}
+knitr::include_graphics("screenshots_for_starting_guide/mappingcsv.png")
+```
+Now its the users task to find the right mapping. In this example you can see, that the body-database column is mapped to the "text"-field of the csv-file. Sometimes the user does not always have the metadata included in the csv file. Then he has 2 other possibilities on how to get the data into the iLCM database. The first one is writing some R-commands in a short script, for a certain database column. 
+**
+Here the column "title"" is filled by using the word "speechnumber" pasted together with the values in the column "speechnumber" of the csv file.
+For other metadata fields like publisher or type, its sometimes the same value for the whole dataset. If this is the case the user can just click the Type Button to input the value by hand. This value will then be used for all documents.
+
+On the right side the user has to specify a language, the date-format and give an abbreviation for imported data.
+It is necessary that the abbreviation and the id_doc field together form aunique key. So when uploading multiple csv files, which all belong to the same dataset (same abbreviation), the user needs to use unique id_doc values.
+In the second table below, the user sees the Metadata input file being created, dependent on the decisions he made in the data table above. Once the user is sure everything is set correctly, he then has to click "Start Preprocessing and save csv-files" or "Start preprocessing and directly write to DB". In both options the imported data are preprocessed using Spacy and then saved as 2 csv files. Having clicked the second button, the data gets already imported in the database and Solr using the 2 created csv-files (token and meta).  
+Once the user restarts the app (open the link in a new tab) the data will be available and ready to work.
+
+## Multiple text files
+The input for multiple text files, is almost the same as for csv files. The only big difference is the fact, that for the text files only , to the fields: "id_doc", "title" and "text" exist. The other missing columns have to filled in by hand, if the user wants to include them. Otherwise he can also just leave them empty.(id_doc and body have to be non empty)
+
+Once the import is succesful, the user can choose the dataset in the sidebar panel below the explorer button. It is possible to work on multiple datasets at the same time.
 
 ## 2. Upload your corpus
 
@@ -41,6 +90,10 @@ The second option is importing multiple text files, like .pdf, .txt, .doc, .docx
 
 
 ## 3. Explore your corpus
+
+In this section the user can search the database, get extra information about the search results, annotate text, and in the end create a collection of documents, which serves as the starting point for further analysis.
+
+?? What if one wants to search the whole corpus?
 
 ### Search
 
@@ -114,10 +167,10 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMD
-cxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgz
-NTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxOD
-QzLDc3ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5
-MzUzODAxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NT
-kzOTQsNzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbLTExMTExNTk0MDgsLTIzNTc2NDEzOCwxNT
+kxOTg1MjE4LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1
+MzUzMzksLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5ND
+E0LC0xOTQ5NTQxODQzLDc3ODc0MDczNywtMTgyNzk2NDEsLTEx
+NTAzNzgyNTUsLTQ5MzUzODAxNywtMjA2MzM0OTQ3NiwxMjY0ND
+k3NzEwLDExMDE2NTkzOTQsNzYwNjkyNjU5XX0=
 -->
