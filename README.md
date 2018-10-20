@@ -60,12 +60,10 @@ In the Importer-tab the user can upload his own text data. The data will then be
 
 In the database the texts are saved with certain metadata-fields. Very often they will not perfectly match the metadata the user has. Therefore you might want to use some given metadata fields for your purposes (e.g. publisher, section...). 
 
-1. After clicking "Start Mapping" you will see two data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. 
-Now its the users task to find the right mapping. In this example you can see, that the body-database column is mapped to the "text"-field of the csv-file. Sometimes the user does not always have the metadata included in the csv file. Then he has 2 other possibilities on how to get the data into the iLCM database. The first one is writing some R-commands in a short script, for a certain database column. 
-**
-Here the column "title"" is filled by using the word "speechnumber" pasted together with the values in the column "speechnumber" of the csv file.
-For other metadata fields like publisher or type, its sometimes the same value for the whole dataset. If this is the case the user can just click the Type Button to input the value by hand. This value will then be used for all documents.
 
+1. After clicking "Start Mapping" you will see two data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. Now its the users task to find the right mapping. In this example you can see, that the body-database column is mapped to the "text"-field of the csv-file. 
+2. Sometimes the user does not always have the metadata included in the csv file. Then one has 2 other possibilities on how to get the data into the iLCM database. 
+	* The first one is writing some R-commands in a short script, for a certain database column. Here the column "title"" is filled by using the word "speechnumber" pasted together with the values in the column "speechnumber" of the csv file. For other metadata fields like publisher or type, its sometimes the same value for the whole dataset. If this is the case the user can just click the Type Button to input the value by hand. This value will then be used for all documents.
 On the right side the user has to specify a language, the date-format and give an abbreviation for imported data.
 It is necessary that the abbreviation and the id_doc field together form aunique key. So when uploading multiple csv files, which all belong to the same dataset (same abbreviation), the user needs to use unique id_doc values.
 In the second table below, the user sees the Metadata input file being created, dependent on the decisions he made in the data table above. Once the user is sure everything is set correctly, he then has to click "Start Preprocessing and save csv-files" or "Start preprocessing and directly write to DB". In both options the imported data are preprocessed using Spacy and then saved as 2 csv files. Having clicked the second button, the data gets already imported in the database and Solr using the 2 created csv-files (token and meta).  
@@ -166,7 +164,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODUxMDExMywyMDQzMDkyMDgyLC0xMT
+eyJoaXN0b3J5IjpbLTg2MzY3NDA3NCwyMDQzMDkyMDgyLC0xMT
 ExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMx
 MDU2OCwtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwOD
 U4LC04OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3
