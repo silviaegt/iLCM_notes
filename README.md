@@ -12,7 +12,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 		+ [Windows 10 Pro](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
 		+ Windows 10 Home -- you will need to install [DockerToolbox](https://docs.docker.com/toolbox/toolbox_install_windows/); to check your installation has been sucessful click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-3-verify-your-installation) (you might need to uninstall and install again your VirtualBox)
 		+ Mac
-	+ Docker Compose
+	+ Docker Compose (**Docker Toolbox** already includes Compose)
 	+ R (and perhaps also RStudio)
 	
 3. Dowload the Install_ilcm.zip 
@@ -104,9 +104,9 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtOD
-k5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQw
-NzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC
-0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2
-OTI2NTldfQ==
+eyJoaXN0b3J5IjpbLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMT
+I1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1
+NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NS
+wtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAsMTEw
+MTY1OTM5NCw3NjA2OTI2NTldfQ==
 -->
