@@ -24,7 +24,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 1. ?? Didn't find ---- install_ilcm_toolbox.R Script 
 2. Run the docker_commands.R commands in the docker-console by hand.
-	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest` Got the following message:
+	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:0.91latest` Got the following message:
     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
 
 ## 2. Upload your corpus
@@ -112,9 +112,10 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMT
-AyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1
-OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MS
-wtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEy
-NjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbMTU5MTk4NTIxOCwtMjA3MTMxMDU2OCwtMT
+A0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwODU4LC04OTk2
+NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3Nzg3NDA3Mz
+csLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1MzgwMTcsLTIw
+NjMzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MDY5Mj
+Y1OV19
 -->
