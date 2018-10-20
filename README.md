@@ -9,7 +9,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Download pre-requisites
 	+ Docker CE:
 		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
-		+ [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account
+		+ [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
 		+ Mac
 	+ Docker Compose
 	+ R (and perhaps also RStudio)
@@ -103,8 +103,8 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTA4ODYyMzAsLTE5NDk1NDE4NDMsNz
-c4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4
-MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NC
-w3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3Nz
+g3NDA3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1Mzgw
+MTcsLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LD
+c2MDY5MjY1OV19
 -->
