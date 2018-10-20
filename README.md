@@ -27,7 +27,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest` Got the following message:
     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
     Had to do:
-     `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/) 
+     `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/)  -- time out problem:
+     
 
 
 ##Collection Worker
@@ -167,10 +168,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTExNTk0MDgsLTIzNTc2NDEzOCwxNT
-kxOTg1MjE4LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1
-MzUzMzksLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5ND
-E0LC0xOTQ5NTQxODQzLDc3ODc0MDczNywtMTgyNzk2NDEsLTEx
-NTAzNzgyNTUsLTQ5MzUzODAxNywtMjA2MzM0OTQ3NiwxMjY0ND
-k3NzEwLDExMDE2NTkzOTQsNzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbLTcwODY3MzYwMiwtMTExMTE1OTQwOCwtMj
+M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
+MjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNj
+EyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0x
+ODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMz
+Q5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTld
+fQ==
 -->
