@@ -52,16 +52,13 @@ Here the user is offered 3 functionalities. First, if the user is familiar with 
 In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
 
 ## CSV file
-The input csv files need to be stored in the directory: `/home/username/.iLCM/data/import_data/` . 
+1. The input csv files need to be stored in the directory: `/home/username/.iLCM/data/import_data/` . 
+2. The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+3. Once the file is loaded into the tool, you can either check whether the data is imported correctly or directly start the mapping. 
 
-The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+### Metadata
 
-
-Once the file is loaded into the tool, the user can either check whether the data is imported correctly or directly start the mapping.
-```{r import csv check, echo=FALSE,out.width = '100%',fig.cap="check if .csv-file is imported correctly",fig.pos="H"}
-knitr::include_graphics("screenshots_for_starting_guide/check_csv.png")
-```
-In the database the texts are saved with certain metadata-fields. Very often they will not perfectly match the metadata the user has. Therefore the user might want to abuse some given metadata fields for his purposes (e.g. publisher, section...). After clicking "Start Mapping" the user can see 2 data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. 
+5. In the database the texts are saved with certain metadata-fields. Very often they will not perfectly match the metadata the user has. Therefore the user might want to abuse some given metadata fields for his purposes (e.g. publisher, section...). After clicking "Start Mapping" the user can see 2 data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. 
 ```{r import csv mapping, echo=FALSE,out.width = '100%',fig.cap="mapping of csv columns to iLCM database-format",fig.pos="H"}
 knitr::include_graphics("screenshots_for_starting_guide/mappingcsv.png")
 ```
@@ -170,11 +167,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMj
-M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
-MjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNj
-EyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0x
-ODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMz
-Q5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTld
-fQ==
+eyJoaXN0b3J5IjpbMzk4NTQ0NjU5LDIwNDMwOTIwODIsLTExMT
+ExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEw
+NTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NT
+gsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3
+ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzOD
+AxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NTkzOTQs
+NzYwNjkyNjU5XX0=
 -->
