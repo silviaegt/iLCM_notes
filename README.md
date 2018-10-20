@@ -9,7 +9,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Download pre-requisites
 	+ Docker CE:
 		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
-		+ [Windows](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
+		+ [Windows 10 Pro](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
+		+ Windows 10 Home -- you will need to install DockerToolbox
 		+ Mac
 	+ Docker Compose
 	+ R (and perhaps also RStudio)
@@ -103,8 +104,8 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3Nz
-g3NDA3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1Mzgw
-MTcsLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0LD
-c2MDY5MjY1OV19
+eyJoaXN0b3J5IjpbLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOT
+Q5NTQxODQzLDc3ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgy
+NTUsLTQ5MzUzODAxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLD
+ExMDE2NTkzOTQsNzYwNjkyNjU5XX0=
 -->
