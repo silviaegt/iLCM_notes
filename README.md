@@ -19,7 +19,6 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	
 3. Dowload the Install_ilcm.zip 
 
-
 ### Installing the tool
 
 1. ?? Didn't find ---- `install_ilcm_toolbox.R`   
@@ -27,7 +26,9 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest` Got the following message:
     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
     Had to do:
-     `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/)  -- time out problem:
+     `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/)  -- time out problem
+     + Also couldn't do $ cd Downloads/Install_ilcm
+bash: cd: Downloads/Install_ilcm: No such file or directory
      
 
 
@@ -153,11 +154,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MTM1NTc2LDIwNDMwOTIwODIsLTExMT
-ExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEw
-NTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NT
-gsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3
-ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzOD
-AxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NTkzOTQs
-NzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbLTU1MjgzMzcxOSwzNzkxMzU1NzYsMjA0Mz
+A5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUy
+MTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOS
+wtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5
+NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3OD
+I1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAs
+MTEwMTY1OTM5NF19
 -->
