@@ -5,6 +5,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 ## 1.  Download the tool
 
+### Preparation
+
 1. Go to https://ilcm.informatik.uni-leipzig.de/software/download/
 2. Download pre-requisites
 	+ Docker CE:
@@ -16,8 +18,11 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	+ R (and perhaps also RStudio)
 	
 3. Dowload the Install_ilcm.zip 
-4. 
 
+
+### Installing the tool
+
+1. ?? Didn't find ---- install_ilcm_toolbox.R Script and insert some commands (docker_commands.R) in the docker-console by hand.
 
 ## 2. Upload your corpus
 
@@ -104,9 +109,9 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMT
-I1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1
-NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NS
-wtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAsMTEw
-MTY1OTM5NCw3NjA2OTI2NTldfQ==
+eyJoaXN0b3J5IjpbLTg2NTcxNDA1MywtMTA0ODMyMzM4MCwxMD
+IxNTM1MzM5LC0xMjU4MzUwODU4LC04OTk2NTA2MTIsMTIxNjU5
+OTQxNCwtMTk0OTU0MTg0Myw3Nzg3NDA3MzcsLTE4Mjc5NjQxLC
+0xMTUwMzc4MjU1LC00OTM1MzgwMTcsLTIwNjMzNDk0NzYsMTI2
+NDQ5NzcxMCwxMTAxNjU5Mzk0LDc2MDY5MjY1OV19
 -->
