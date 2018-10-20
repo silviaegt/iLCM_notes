@@ -58,10 +58,9 @@ In the Importer-tab the user can upload his own text data. The data will then be
 
 ### Metadata
 
-5. In the database the texts are saved with certain metadata-fields. Very often they will not perfectly match the metadata the user has. Therefore the user might want to abuse some given metadata fields for his purposes (e.g. publisher, section...). After clicking "Start Mapping" the user can see 2 data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. 
-```{r import csv mapping, echo=FALSE,out.width = '100%',fig.cap="mapping of csv columns to iLCM database-format",fig.pos="H"}
-knitr::include_graphics("screenshots_for_starting_guide/mappingcsv.png")
-```
+In the database the texts are saved with certain metadata-fields. Very often they will not perfectly match the metadata the user has. Therefore you might want to use some given metadata fields for your purposes (e.g. publisher, section...). 
+
+1. After clicking "Start Mapping" you will see two data tables. In the first one, the user needs to set the the mapping. In the header the metadata-fields of the database are given. In the rows the user can see the fields, which were found in the imported csv-file. 
 Now its the users task to find the right mapping. In this example you can see, that the body-database column is mapped to the "text"-field of the csv-file. Sometimes the user does not always have the metadata included in the csv file. Then he has 2 other possibilities on how to get the data into the iLCM database. The first one is writing some R-commands in a short script, for a certain database column. 
 **
 Here the column "title"" is filled by using the word "speechnumber" pasted together with the values in the column "speechnumber" of the csv file.
@@ -167,11 +166,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk4NTQ0NjU5LDIwNDMwOTIwODIsLTExMT
-ExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEw
-NTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NT
-gsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3
-ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzOD
-AxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NTkzOTQs
-NzYwNjkyNjU5XX0=
+eyJoaXN0b3J5IjpbMTQ4ODUxMDExMywyMDQzMDkyMDgyLC0xMT
+ExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMx
+MDU2OCwtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwOD
+U4LC04OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3
+Nzg3NDA3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1Mz
+gwMTcsLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwxMTAxNjU5Mzk0
+LDc2MDY5MjY1OV19
 -->
