@@ -45,10 +45,11 @@ Here the user is offered 3 functionalities. First, if the user is familiar with 
 
 ##Importer
 
-In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
+
 
 # Import your own Documents
-The first thing you might want to do, is importing your own data into the tool. For this purpose we have 2 possibilities. The first option is importing your data as a csv file, which can basically have any format. The second option is importing multiple text files, like .pdf, .txt, .doc, .docx, where every file is imported as a single document. The import is only possible, if the user has installed the app on his local machine. 
+
+In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
 
 ## CSV file
 The csv files the user wants to input, need to be stored in the directory: /home/username/.iLCM/data/import_data/ . The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
@@ -95,6 +96,7 @@ The second option is importing multiple text files, like .pdf, .txt, .doc, .docx
 In this section the user can search the database, get extra information about the search results, annotate text, and in the end create a collection of documents, which serves as the starting point for further analysis.
 
 ?? What if one wants to search the whole corpus?
+?? What if one wants to really "explore" following EDA principles (i.e. get 
 
 ### Search
 
@@ -168,11 +170,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODY3MzYwMiwtMTExMTE1OTQwOCwtMj
-M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
-MjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNj
-EyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0x
-ODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMz
-Q5NDc2LDEyNjQ0OTc3MTAsMTEwMTY1OTM5NCw3NjA2OTI2NTld
-fQ==
+eyJoaXN0b3J5IjpbLTEwNTgzMDg2MzEsLTExMTExNTk0MDgsLT
+IzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC0xMDQ4
+MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5OTY1MD
+YxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3ODc0MDczNywt
+MTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzODAxNywtMjA2Mz
+M0OTQ3NiwxMjY0NDk3NzEwLDExMDE2NTkzOTQsNzYwNjkyNjU5
+XX0=
 -->
