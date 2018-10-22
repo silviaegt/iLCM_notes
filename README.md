@@ -33,11 +33,15 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	3.2 Open your tmca folder*
 	3.3 Then type: `docker-compose up -d`
 	3.4 Proof if everything was downloaded properly with `docker ps`
+
 > \* Windows: something like `cd
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
-5. Initialise Solr: http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
+5. Initialise Solr: http://localhost:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
+> If you're a Windosws Home user you should type:
+> http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
+
 6. 
 
 docker-compose stop (to end the service)
@@ -178,11 +182,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0MzY5NzQxLC0xMzc2NDUxNzczLDY0Nz
-cwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC0xNTE4MDEwMDE2
-LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLTExMT
-ExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEw
-NTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NT
-gsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3
-ODc0MDczN119
+eyJoaXN0b3J5IjpbLTE0OTY3MzAzNzcsLTEzNzY0NTE3NzMsNj
+Q3NzA5NTE2LDQ0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAw
+MTYsLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMT
+ExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEz
+MTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MD
+g1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMs
+Nzc4NzQwNzM3XX0=
 -->
