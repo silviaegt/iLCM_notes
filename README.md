@@ -46,6 +46,8 @@ docker-compose stop (to end the service)
 docker-machine start default 
 
 
+http://192.168.99.100:3839/
+
 6. ?? Didn't find ---- `install_ilcm_toolbox.R`   
 7. Run the docker_commands.R commands in the docker-console by hand.
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest`
@@ -177,7 +179,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgxMTY3NzksNjQ3NzA5NTE2LDQ0Mj
+eyJoaXN0b3J5IjpbLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0Mj
 gxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0
 NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMj
 M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
