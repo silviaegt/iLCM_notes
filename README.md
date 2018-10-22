@@ -39,18 +39,13 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
 
+#### Setting Solr
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
 5. Initialise Solr: http://localhost:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 > If you're a Windosws Home user you should type:
 > http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 
-
-docker-compose stop (to end the service)
-
-docker-machine start default 
-
-
-http://192.168.99.100:3839/
+****
 
 6. ?? Didn't find ---- `install_ilcm_toolbox.R`   
 7. Run the docker_commands.R commands in the docker-console by hand.
@@ -75,10 +70,19 @@ Here the user is offered 3 functionalities. First, if the user is familiar with 
 
 ##Importer
 
+*****
 
 
 ## 2. Import your own Documents
 
+
+
+If you're a Windows Home user, you have to do some steps before you get here.
+
+docker-machine start default 
+
+
+http://192.168.99.100:3839/
 In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
 
 ### 2.1 CSV file
@@ -183,11 +187,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcxMTI3NTcsMTY5MjkyNTgzLC0xND
-k2NzMwMzc3LC0xMzc2NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3
-MjYsMjM4ODQ2NTA2LC0xNTE4MDEwMDE2LC03MDAyMzM5NDUsMz
-c5MTM1NTc2LDIwNDMwOTIwODIsLTExMTExNTk0MDgsLTIzNTc2
-NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMz
-gwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwx
-MjE2NTk5NDE0XX0=
+eyJoaXN0b3J5IjpbLTcxMTQxNjM4MSwxNjkyOTI1ODMsLTE0OT
+Y3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcy
+NiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNz
+kxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0
+MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzOD
+AsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEy
+MTY1OTk0MTRdfQ==
 -->
