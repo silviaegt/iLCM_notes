@@ -44,6 +44,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 #### Setting Solr
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
 5. Initialise Solr: http://localhost:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
+
 > If you're a Windosws Home user you should type:
 > http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 
@@ -196,11 +197,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTcxMzIzNDgsLTE1NTI5OTM5MzAsND
-g0MTYwMDA3LC0yNTcyODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1
-ODMsLTE0OTY3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LD
-Q0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIz
-Mzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOC
-wtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEw
-NDgzMjMzODBdfQ==
+eyJoaXN0b3J5IjpbMjIxNTA5MDE0LC0xNzk3MTMyMzQ4LC0xNT
+UyOTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LDE2MzA4MTg0
+OTgsMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMzc2NDUxNzczLD
+Y0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC0xNTE4MDEw
+MDE2LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLT
+ExMTExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcx
+MzEwNTY4XX0=
 -->
