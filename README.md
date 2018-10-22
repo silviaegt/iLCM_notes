@@ -42,7 +42,6 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 > If you're a Windosws Home user you should type:
 > http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 
-6. 
 
 docker-compose stop (to end the service)
 
@@ -182,11 +181,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTY3MzAzNzcsLTEzNzY0NTE3NzMsNj
-Q3NzA5NTE2LDQ0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAw
-MTYsLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMT
-ExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEz
-MTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MD
-g1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMs
-Nzc4NzQwNzM3XX0=
+eyJoaXN0b3J5IjpbMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMz
+c2NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2
+LC0xNTE4MDEwMDE2LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwND
+MwOTIwODIsLTExMTExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1
+MjE4LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMz
+ksLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0x
+OTQ5NTQxODQzXX0=
 -->
