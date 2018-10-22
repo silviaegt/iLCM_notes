@@ -21,8 +21,15 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 ### Installing the tool
 
-1. ?? Didn't find ---- `install_ilcm_toolbox.R`   
-2. Run the docker_commands.R commands in the docker-console by hand.
+
+1. Download the zip file (install_iLCM.zip) 
+2. Copy the iLCM folder in your "home"
+• Linux: /home/christian/
+• Windows: C:/User/christian/
+• Mac: /Users/christiankahmann/
+
+4. ?? Didn't find ---- `install_ilcm_toolbox.R`   
+5. Run the docker_commands.R commands in the docker-console by hand.
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest`
 		+ Problem:     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
 		+ Sollution:
@@ -152,11 +159,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0Mz
-A5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUy
-MTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOS
-wtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5
-NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3OD
-I1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAs
-MTEwMTY1OTM5NF19
+eyJoaXN0b3J5IjpbLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNz
+kxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0
+MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzOD
+AsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEy
+MTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OT
+Y0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2
+LDEyNjQ0OTc3MTBdfQ==
 -->
