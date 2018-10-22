@@ -68,6 +68,7 @@ The Collection Worker is the tab where the user starts various NLP algorithms. A
 
 In the Categories tab the user can have a closer look at the made annotations, create new annotation schemes or create further annotations.
 
+2
 ##Scripts
 
 Here the user is offered 3 functionalities. First, if the user is familiar with R, he can type R-commands, which are then executed. This can be useful for debugging or reconfiguring some default settings. The second option is given by the possibility of creating or manipulating blacklists. These can be used in the preprocessing chain when applying different NLP algorithms. The third option is changing the scripts of the NLP algorithms. The user should be enabled, to create different versions of the script. But he has to keep in mind though, that he has to produce the same output formats like the original script did. This is the case, because the result visualisation is dependent on certain variables and variable names.
@@ -195,11 +196,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTI5OTM5MzAsNDg0MTYwMDA3LC0yNT
-cyODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OTY3MzAz
-NzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcyNiwyMz
-g4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNzkxMzU1
-NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LD
-E1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAy
-MTUzNTMzOV19
+eyJoaXN0b3J5IjpbLTE3OTcxMzIzNDgsLTE1NTI5OTM5MzAsND
+g0MTYwMDA3LC0yNTcyODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1
+ODMsLTE0OTY3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LD
+Q0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIz
+Mzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOC
+wtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEw
+NDgzMjMzODBdfQ==
 -->
