@@ -92,8 +92,9 @@ In the Importer-tab the user can upload his own text data. The data will then be
 
 ### 2.1 CSV file
 1. The input csv files need to be stored in the directory: `/home/username/.iLCM/data/import_data/` . 
-2. The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
-3. Once the file is loaded into the tool, you can either check whether the data is imported correctly or directly start the mapping. 
+2.
+3. The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+4. Once the file is loaded into the tool, you can either check whether the data is imported correctly or directly start the mapping. 
 
 ### Metadata
 
@@ -192,11 +193,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OT
-I5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1
-MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNiwtNz
-AwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5
-NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMxMDU2OC
-wtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwODU4LC04
-OTk2NTA2MTJdfQ==
+eyJoaXN0b3J5IjpbLTIwMDMyNTE5MTAsLTI1NzI4ODI3NCwxNj
+MwODE4NDk4LDE2OTI5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1
+MTc3Myw2NDc3MDk1MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMT
+UxODAxMDAxNiwtNzAwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDky
+MDgyLC0xMTExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOC
+wtMjA3MTMxMDU2OCwtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0x
+MjU4MzUwODU4XX0=
 -->
