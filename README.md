@@ -36,12 +36,12 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 > \* Windows: something like `cd
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
-
+4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
 	
 
 
-5. ?? Didn't find ---- `install_ilcm_toolbox.R`   
-6. Run the docker_commands.R commands in the docker-console by hand.
+6. ?? Didn't find ---- `install_ilcm_toolbox.R`   
+7. Run the docker_commands.R commands in the docker-console by hand.
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest`
 		+ Problem:     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
 		+ Sollution:
@@ -171,11 +171,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4ODQ2NTA2LC0xNTE4MDEwMDE2LC03MD
-AyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLTExMTExNTk0
-MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC
-0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5
-OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3ODc0MD
-czNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzODAxNywt
-MjA2MzM0OTQ3Nl19
+eyJoaXN0b3J5IjpbMTY3NzgzODE1MCwyMzg4NDY1MDYsLTE1MT
+gwMTAwMTYsLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4
+MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLT
+IwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1
+ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1ND
+E4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwt
+NDkzNTM4MDE3XX0=
 -->
