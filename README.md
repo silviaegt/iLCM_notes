@@ -1,5 +1,7 @@
 # Corpus Analysis with iLCM
 
+
+cravioto y varela (dos documentos que estaban vacíos)
 Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 
@@ -193,11 +195,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MTYwMDA3LC0yNTcyODgyNzQsMTYzMD
-gxODQ5OCwxNjkyOTI1ODMsLTE0OTY3MzAzNzcsLTEzNzY0NTE3
-NzMsNjQ3NzA5NTE2LDQ0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MT
-gwMTAwMTYsLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4
-MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLT
-IwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1
-ODM1MDg1OF19
+eyJoaXN0b3J5IjpbLTE1NTI5OTM5MzAsNDg0MTYwMDA3LC0yNT
+cyODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OTY3MzAz
+NzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcyNiwyMz
+g4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNzkxMzU1
+NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LD
+E1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAy
+MTUzNTMzOV19
 -->
