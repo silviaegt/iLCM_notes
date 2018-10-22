@@ -21,22 +21,24 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 
 ### Installing the tool
 
-
+#### Downloading
 1. Download the zip file (install_iLCM.zip) 
 2. Copy the iLCM folder in your "home"
 	+ Linux: /home/christian/
 	+ Windows: C:/User/christian/
 		+ Right click your folder, select "Properties", go to "Security" and add "Everyone" to the group of users that can edit this folder (Number of groups or users -- Edit -- write "Everyone" in the empty box, then click Add and afterwards make sure you click all boxes in the Permissions section)
 	+ Mac: /Users/christiankahmann/
+
+#### Setting docker
 3. Do your docker-compose
 	3.1 Open your terminal / Powershell
 	3.2 Open your tmca folder*
 	3.3 Then type: `docker-compose up -d`
 	3.4 Proof if everything was downloaded properly with `docker ps`
-
 > \* Windows: something like `cd
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
+
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
 5. Initialise Solr: http://localhost:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 > If you're a Windosws Home user you should type:
@@ -181,11 +183,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMz
-c2NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2
-LC0xNTE4MDEwMDE2LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwND
-MwOTIwODIsLTExMTExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1
-MjE4LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMz
-ksLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0x
-OTQ5NTQxODQzXX0=
+eyJoaXN0b3J5IjpbLTE3NjcxMTI3NTcsMTY5MjkyNTgzLC0xND
+k2NzMwMzc3LC0xMzc2NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3
+MjYsMjM4ODQ2NTA2LC0xNTE4MDEwMDE2LC03MDAyMzM5NDUsMz
+c5MTM1NTc2LDIwNDMwOTIwODIsLTExMTExNTk0MDgsLTIzNTc2
+NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMz
+gwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5OTY1MDYxMiwx
+MjE2NTk5NDE0XX0=
 -->
