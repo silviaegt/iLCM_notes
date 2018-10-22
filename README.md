@@ -78,8 +78,9 @@ Here the user is offered 3 functionalities. First, if the user is familiar with 
 ## 2. Import your own Documents
 
 
+If you're a Windows Home user, you have to set some parameters in your VirtualBox before you get here.
 
-If you're a Windows Home user, you have to do some steps before you get here.
+
 
 docker-machine start default 
 
@@ -191,11 +192,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQzNTcxNDYsMTYzMDgxODQ5OCwxNj
-kyOTI1ODMsLTE0OTY3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5
-NTE2LDQ0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLT
-cwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1
-OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1Nj
-gsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwt
-ODk5NjUwNjEyXX0=
+eyJoaXN0b3J5IjpbLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OT
+I5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1
+MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNiwtNz
+AwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5
+NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMxMDU2OC
+wtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwODU4LC04
+OTk2NTA2MTJdfQ==
 -->
