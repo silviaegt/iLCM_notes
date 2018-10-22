@@ -45,6 +45,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 > If you're a Windosws Home user you should type:
 > http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 
+Remember to clic `docker-compose stop` to close your docker session (your data will be still there when you come back)
+
 ****
 
 6. ?? Didn't find ---- `install_ilcm_toolbox.R`   
@@ -187,7 +189,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTQxNjM4MSwxNjkyOTI1ODMsLTE0OT
+eyJoaXN0b3J5IjpbMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OT
 Y3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcy
 NiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNz
 kxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0
