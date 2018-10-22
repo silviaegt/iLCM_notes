@@ -27,6 +27,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 • Linux: /home/christian/
 • Windows: C:/User/christian/
 • Mac: /Users/christiankahmann/
+3. Right click your folder, select "Properties", go to "Security" and add "Everyone" to the group of users that can edit this folder (Number of grou
 
 4. ?? Didn't find ---- `install_ilcm_toolbox.R`   
 5. Run the docker_commands.R commands in the docker-console by hand.
@@ -159,11 +160,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNz
-kxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0
-MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzOD
-AsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEy
-MTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OT
-Y0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2
-LDEyNjQ0OTc3MTBdfQ==
+eyJoaXN0b3J5IjpbMTIxNjcxMDE2MSwtMTUxODAxMDAxNiwtNz
+AwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5
+NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMxMDU2OC
+wtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwODU4LC04
+OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3Nzg3ND
+A3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1MzgwMTcs
+LTIwNjMzNDk0NzZdfQ==
 -->
