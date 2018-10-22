@@ -25,8 +25,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Run the docker_commands.R commands in the docker-console by hand.
 	+ ?? Had problems with: `$ docker pull ckahmann/ilcm_r:latest`
 		+ Problem:     Error response from daemon: manifest for ckahmann/ilcm_r:latest not found
-		+ Sol:
-     `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/)  -- time out problem
+		+ Sollution:
+     `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/)  -- although I did have time out problems (??)
      + ?? Also: couldn't do `$ cd Downloads/Install_ilcm` (in the instructions it's called install_ilcm but the downloaded file is written with capital I)
 	     + Problem: `bash: cd: Downloads/Install_ilcm: No such file or directory`
      
@@ -154,11 +154,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3MDgwMjgwLDM3OTEzNTU3NiwyMDQzMD
-kyMDgyLC0xMTExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIx
-OCwtMjA3MTMxMDU2OCwtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC
-0xMjU4MzUwODU4LC04OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0
-OTU0MTg0Myw3Nzg3NDA3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4Mj
-U1LC00OTM1MzgwMTcsLTIwNjMzNDk0NzYsMTI2NDQ5NzcxMCwx
-MTAxNjU5Mzk0XX0=
+eyJoaXN0b3J5IjpbMTU0MDEwNjMsMzc5MTM1NTc2LDIwNDMwOT
+IwODIsLTExMTExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4
+LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLT
+EyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5
+NTQxODQzLDc3ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgyNT
+UsLTQ5MzUzODAxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLDEx
+MDE2NTkzOTRdfQ==
 -->
