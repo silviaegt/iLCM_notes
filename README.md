@@ -32,7 +32,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 	3.1 Open your terminal / Powershell
 	3.2 Open your tmca folder*
 	3.3 Then type: `docker-compose up -d`
-	3.4 Proof if everything was downloaded properly with `docker-compose up -d`
+	3.4 Proof if everything was downloaded properly with `docker ps`
 > \* Windows: something like `cd
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
@@ -171,11 +171,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg2Nzc3OTgsLTE1MTgwMTAwMTYsLT
-cwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1
-OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1Nj
-gsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwt
-ODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4Nz
-QwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3
-LC0yMDYzMzQ5NDc2XX0=
+eyJoaXN0b3J5IjpbMjM4ODQ2NTA2LC0xNTE4MDEwMDE2LC03MD
+AyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLTExMTExNTk0
+MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC
+0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5
+OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3ODc0MD
+czNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzODAxNywt
+MjA2MzM0OTQ3Nl19
 -->
