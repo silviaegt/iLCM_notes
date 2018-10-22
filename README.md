@@ -26,8 +26,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Copy the iLCM folder in your "home"
 	+ Linux: /home/christian/
 	+ Windows: C:/User/christian/
-		+ Right click your folder, select "Properties", go to "Security" and add "Everyone" to the group of users that can edit this folder (Number of groups or users -- Edit -- write "Everyone" in the empty box, then click Add and afterwards make sur
-	+Mac: /Users/christiankahmann/
+		+ Right click your folder, select "Properties", go to "Security" and add "Everyone" to the group of users that can edit this folder (Number of groups or users -- Edit -- write "Everyone" in the empty box, then click Add and afterwards make sure you click all boxes in the Permissions section)
+	+ Mac: /Users/christiankahmann/
 3. 
 
 4. ?? Didn't find ---- `install_ilcm_toolbox.R`   
@@ -161,11 +161,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDg0MjM1MTUsLTE1MTgwMTAwMTYsLT
-cwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1
-OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1Nj
-gsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwt
-ODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4Nz
-QwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwtNDkzNTM4MDE3
-LC0yMDYzMzQ5NDc2XX0=
+eyJoaXN0b3J5IjpbLTg0MzM2OTgwNSwtMTUxODAxMDAxNiwtNz
+AwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5
+NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMxMDU2OC
+wtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwODU4LC04
+OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3Nzg3ND
+A3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1MzgwMTcs
+LTIwNjMzNDk0NzZdfQ==
 -->
