@@ -37,9 +37,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
-	
-http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
-
+5. Initialise Solr: http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
+6. 
 
 docker-compose stop (to end the service)
 
@@ -179,11 +178,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0Mj
-gxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0
-NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMj
-M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
-MjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNj
-EyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0x
-ODI3OTY0MV19
+eyJoaXN0b3J5IjpbNDU0MzY5NzQxLC0xMzc2NDUxNzczLDY0Nz
+cwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC0xNTE4MDEwMDE2
+LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLTExMT
+ExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEw
+NTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NT
+gsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3
+ODc0MDczN119
 -->
