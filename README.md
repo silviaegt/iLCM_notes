@@ -29,10 +29,11 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 		+ Right click your folder, select "Properties", go to "Security" and add "Everyone" to the group of users that can edit this folder (Number of groups or users -- Edit -- write "Everyone" in the empty box, then click Add and afterwards make sure you click all boxes in the Permissions section)
 	+ Mac: /Users/christiankahmann/
 3. Do your docker-compose
-+ Open your terminal / Powershell
-+ Open your tmca folder 
-	+ Windows: with some (cd =change directory)
-• docker-compose up -d
+3.1 Open your terminal / Powershell
+3.2 Open your tmca folder 
+	+ Windows: something like `cd C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change directory)
++ Then type: `docker-compose up -d`
++ 
 
 5. ?? Didn't find ---- `install_ilcm_toolbox.R`   
 6. Run the docker_commands.R commands in the docker-console by hand.
@@ -165,11 +166,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjI1MDk2LC0xNTE4MDEwMDE2LC03MD
-AyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLTExMTExNTk0
-MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcxMzEwNTY4LC
-0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLTEyNTgzNTA4NTgsLTg5
-OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5NTQxODQzLDc3ODc0MD
-czNywtMTgyNzk2NDEsLTExNTAzNzgyNTUsLTQ5MzUzODAxNywt
-MjA2MzM0OTQ3Nl19
+eyJoaXN0b3J5IjpbLTMxNzM0NzYyMiwtMTUxODAxMDAxNiwtNz
+AwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5
+NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMjA3MTMxMDU2OC
+wtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4MzUwODU4LC04
+OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MTg0Myw3Nzg3ND
+A3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00OTM1MzgwMTcs
+LTIwNjMzNDk0NzZdfQ==
 -->
