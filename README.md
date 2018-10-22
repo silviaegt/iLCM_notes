@@ -38,6 +38,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 > directory)
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
 	
+http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
 
 
 6. ?? Didn't find ---- `install_ilcm_toolbox.R`   
@@ -171,11 +172,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzgzODE1MCwyMzg4NDY1MDYsLTE1MT
-gwMTAwMTYsLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4
-MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLT
-IwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1
-ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5NDk1ND
-E4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3ODI1NSwt
-NDkzNTM4MDE3XX0=
+eyJoaXN0b3J5IjpbNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxOD
+AxMDAxNiwtNzAwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgy
+LC0xMTExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4NTIxOCwtMj
+A3MTMxMDU2OCwtMTA0ODMyMzM4MCwxMDIxNTM1MzM5LC0xMjU4
+MzUwODU4LC04OTk2NTA2MTIsMTIxNjU5OTQxNCwtMTk0OTU0MT
+g0Myw3Nzg3NDA3MzcsLTE4Mjc5NjQxLC0xMTUwMzc4MjU1LC00
+OTM1MzgwMTddfQ==
 -->
