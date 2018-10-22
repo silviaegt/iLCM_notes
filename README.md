@@ -85,6 +85,8 @@ docker-machine start default
 
 
 http://192.168.99.100:3839/
+
+
 In the Importer-tab the user can upload his own text data. The data will then be preprocessed and uploaded to the database and Solr.
 
 ### 2.1 CSV file
@@ -189,11 +191,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OT
-Y3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcy
-NiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNz
-kxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0
-MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzOD
-AsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEy
-MTY1OTk0MTRdfQ==
+eyJoaXN0b3J5IjpbLTE3MDQzNTcxNDYsMTYzMDgxODQ5OCwxNj
+kyOTI1ODMsLTE0OTY3MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5
+NTE2LDQ0MjgxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLT
+cwMDIzMzk0NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1
+OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1Nj
+gsLTEwNDgzMjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwt
+ODk5NjUwNjEyXX0=
 -->
