@@ -43,6 +43,8 @@ http://192.168.99.100:8081/solr/admin/collections?action=CREATE&collection.confi
 
 docker-compose stop (to end the service)
 
+docker-machine start default 
+
 
 6. ?? Didn't find ---- `install_ilcm_toolbox.R`   
 7. Run the docker_commands.R commands in the docker-console by hand.
@@ -175,11 +177,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NzA5NTE2LDQ0MjgxOTcyNiwyMzg4ND
-Y1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNzkxMzU1NzYs
-MjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OT
-E5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUz
-NTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MT
-QsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1
-MDM3ODI1NV19
+eyJoaXN0b3J5IjpbLTE0MjgxMTY3NzksNjQ3NzA5NTE2LDQ0Mj
+gxOTcyNiwyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0
+NSwzNzkxMzU1NzYsMjA0MzA5MjA4MiwtMTExMTE1OTQwOCwtMj
+M1NzY0MTM4LDE1OTE5ODUyMTgsLTIwNzEzMTA1NjgsLTEwNDgz
+MjMzODAsMTAyMTUzNTMzOSwtMTI1ODM1MDg1OCwtODk5NjUwNj
+EyLDEyMTY1OTk0MTQsLTE5NDk1NDE4NDMsNzc4NzQwNzM3LC0x
+ODI3OTY0MV19
 -->
