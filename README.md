@@ -28,9 +28,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 		+ Sollution:
      `$ docker pull ckahmann/ilcm_r:0.91` (folllowing the name of the tag: https://hub.docker.com/r/ckahmann/ilcm_r/tags/)  -- although I did have time out problems (??)
      + ?? Also: couldn't do `$ cd Downloads/Install_ilcm` (in the instructions it's called install_ilcm but the downloaded file is written with capital I)
-	     + Problem: `bash: cd: Downloads/Install_ilcm: No such file or directory`
-     
-
+	     + Problem: `bash: cd: Downloads/Install_ilcm: No such file or directory` 
 
 ##Collection Worker
 
@@ -154,11 +152,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MDEwNjMsMzc5MTM1NTc2LDIwNDMwOT
-IwODIsLTExMTExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4
-LC0yMDcxMzEwNTY4LC0xMDQ4MzIzMzgwLDEwMjE1MzUzMzksLT
-EyNTgzNTA4NTgsLTg5OTY1MDYxMiwxMjE2NTk5NDE0LC0xOTQ5
-NTQxODQzLDc3ODc0MDczNywtMTgyNzk2NDEsLTExNTAzNzgyNT
-UsLTQ5MzUzODAxNywtMjA2MzM0OTQ3NiwxMjY0NDk3NzEwLDEx
-MDE2NTkzOTRdfQ==
+eyJoaXN0b3J5IjpbLTcwMDIzMzk0NSwzNzkxMzU1NzYsMjA0Mz
+A5MjA4MiwtMTExMTE1OTQwOCwtMjM1NzY0MTM4LDE1OTE5ODUy
+MTgsLTIwNzEzMTA1NjgsLTEwNDgzMjMzODAsMTAyMTUzNTMzOS
+wtMTI1ODM1MDg1OCwtODk5NjUwNjEyLDEyMTY1OTk0MTQsLTE5
+NDk1NDE4NDMsNzc4NzQwNzM3LC0xODI3OTY0MSwtMTE1MDM3OD
+I1NSwtNDkzNTM4MDE3LC0yMDYzMzQ5NDc2LDEyNjQ0OTc3MTAs
+MTEwMTY1OTM5NF19
 -->
