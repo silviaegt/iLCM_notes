@@ -84,7 +84,7 @@ The Collection Worker is the tab where the user starts various NLP algorithms. A
 
 In the Categories tab the user can have a closer look at the made annotations, create new annotation schemes or create further annotations.
 
-2
+
 ##Scripts
 
 Here the user is offered 3 functionalities. First, if the user is familiar with R, he can type R-commands, which are then executed. This can be useful for debugging or reconfiguring some default settings. The second option is given by the possibility of creating or manipulating blacklists. These can be used in the preprocessing chain when applying different NLP algorithms. The third option is changing the scripts of the NLP algorithms. The user should be enabled, to create different versions of the script. But he has to keep in mind though, that he has to produce the same output formats like the original script did. This is the case, because the result visualisation is dependent on certain variables and variable names.
@@ -112,8 +112,10 @@ In the Importer-tab the user can upload his own text data. The data will then be
 ### 2.1 CSV file
 1. The input csv files need to be stored in the directory: `/home/username/.iLCM/data/import_data/` . 
 For pre-processed data (iLCM style) it should be stored in "
-3. The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
-4. Once the file is loaded into the tool, you can either check whether the data is imported correctly or directly start the mapping. 
+2. The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
+3. Once the file is loaded into the tool, you can either check whether the data is imported correctly or directly start the mapping. 
+
+after pre-processing with R
 
 ### Metadata
 
@@ -212,11 +214,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY2NDgyMzQsLTk5NDEyMjkxNywtNT
-k3NDA1MDIyLC01OTU2MTIwMDMsLTE3MDgxOTA5MjEsLTIwMDQ3
-NzQ5NTQsMzM5MjI4ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OC
-wtMTU1Mjk5MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMw
-ODE4NDk4LDE2OTI5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MT
-c3Myw2NDc3MDk1MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUx
-ODAxMDAxNl19
+eyJoaXN0b3J5IjpbMTU4NzI0ODUxOSwtMTg3NjY0ODIzNCwtOT
+k0MTIyOTE3LC01OTc0MDUwMjIsLTU5NTYxMjAwMywtMTcwODE5
+MDkyMSwtMjAwNDc3NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC
+0xNzk3MTMyMzQ4LC0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3
+Mjg4Mjc0LDE2MzA4MTg0OTgsMTY5MjkyNTgzLC0xNDk2NzMwMz
+c3LC0xMzc2NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4
+ODQ2NTA2XX0=
 -->
