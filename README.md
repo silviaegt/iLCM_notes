@@ -142,7 +142,7 @@ In this section the user can search the database, get extra information about th
 
 id | id_doc | score | dataset | section | 
 -- | --| -- | -- | -- | 
-?? | number you give to identify your document | ?? | name of your collection (format, good practices??) | is this only thought for newspapers data??
+unique id the database gives to the document | number you give to identify your document | ?? | name of your collection (format, good practices??) | is this only thought for newspapers data??
 
 
 
@@ -200,11 +200,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM5MjI4ODM3LDIyMTUwOTAxNCwtMTc5Nz
-EzMjM0OCwtMTU1Mjk5MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3
-NCwxNjMwODE4NDk4LDE2OTI5MjU4MywtMTQ5NjczMDM3NywtMT
-M3NjQ1MTc3Myw2NDc3MDk1MTYsNDQyODE5NzI2LDIzODg0NjUw
-NiwtMTUxODAxMDAxNiwtNzAwMjMzOTQ1LDM3OTEzNTU3NiwyMD
-QzMDkyMDgyLC0xMTExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4
-NTIxOF19
+eyJoaXN0b3J5IjpbLTIwMDQ3NzQ5NTQsMzM5MjI4ODM3LDIyMT
+UwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5MzkzMCw0ODQxNjAw
+MDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OTI5MjU4MywtMT
+Q5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1MTYsNDQyODE5
+NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNiwtNzAwMjMzOTQ1LD
+M3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5NDA4LC0yMzU3
+NjQxMzhdfQ==
 -->
