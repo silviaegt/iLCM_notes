@@ -50,6 +50,8 @@ For commodity you can type the following commands in order to
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
 
+ExecStart=/usr/bin/dockerd -g /home/luba/docker -H fd://
+
 #### Setting Solr
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
 5. Initialise Solr: http://localhost:8081/solr/admin/collections?action=CREATE&collection.configName=iLCM&maxShardsPerNode=1&name=iLCM&numShards=1&replicationFactor=1&router.name=compositeId&routerName=compositeId&wt=json
@@ -206,11 +208,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NzQwNTAyMiwtNTk1NjEyMDAzLC0xNz
-A4MTkwOTIxLC0yMDA0Nzc0OTU0LDMzOTIyODgzNywyMjE1MDkw
-MTQsLTE3OTcxMzIzNDgsLTE1NTI5OTM5MzAsNDg0MTYwMDA3LC
-0yNTcyODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OTY3
-MzAzNzcsLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcyNi
-wyMzg4NDY1MDYsLTE1MTgwMTAwMTYsLTcwMDIzMzk0NSwzNzkx
-MzU1NzZdfQ==
+eyJoaXN0b3J5IjpbLTk5NDEyMjkxNywtNTk3NDA1MDIyLC01OT
+U2MTIwMDMsLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NTQsMzM5MjI4
+ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5MzkzMC
+w0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OTI5
+MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1MT
+YsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNiwtNzAw
+MjMzOTQ1XX0=
 -->
