@@ -118,7 +118,10 @@ For pre-processed data (iLCM style) it should be stored in "
 
 a) after pre-processing with R 
 b) Upload your two csv files to your Rstudio Environment
-c) then move them to ShinyApp -- TMCA -- Beip
+c) then move them to ShinyApp -- TMCA -- Beipieldaten
+d) Run your ILCM app
+e) Go to importer upload selected data to DB 
+
 
 ### Metadata
 
@@ -217,11 +220,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjkwNzY1OSwtMTg3NjY0ODIzNCwtOT
-k0MTIyOTE3LC01OTc0MDUwMjIsLTU5NTYxMjAwMywtMTcwODE5
-MDkyMSwtMjAwNDc3NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC
-0xNzk3MTMyMzQ4LC0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3
-Mjg4Mjc0LDE2MzA4MTg0OTgsMTY5MjkyNTgzLC0xNDk2NzMwMz
-c3LC0xMzc2NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4
-ODQ2NTA2XX0=
+eyJoaXN0b3J5IjpbNDU2MDkzOTAyLC0xODc2NjQ4MjM0LC05OT
+QxMjI5MTcsLTU5NzQwNTAyMiwtNTk1NjEyMDAzLC0xNzA4MTkw
+OTIxLC0yMDA0Nzc0OTU0LDMzOTIyODgzNywyMjE1MDkwMTQsLT
+E3OTcxMzIzNDgsLTE1NTI5OTM5MzAsNDg0MTYwMDA3LC0yNTcy
+ODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OTY3MzAzNz
+csLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcyNiwyMzg4
+NDY1MDZdfQ==
 -->
