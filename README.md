@@ -54,7 +54,7 @@ For commodity you can type the following commands in order to
 
 Make sure you have enough space in your system, if not, it is better to change your docker to your home directory you can do this by following this instructions: https://linuxconfig.org/how-to-move-docker-s-default-var-lib-docker-to-another-directory-on-ubuntu-debian-linux
 
-ExecStart=/usr/bin/dockerd -g /home/luba/docker -H fd://
+ExecStart=/usr/bin/dockerd -g /home/myname/docker -H fd://
 
 #### Setting Solr
 4. Tell Solr which configuration to use `docker exec -i --user=solr tmca_solr-1_1 bin/solr zk upconfig -n iLCM -d /store/solr/config/iLCM`
@@ -212,11 +212,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDQ0Nzc4MywtOTk0MTIyOTE3LC01OT
-c0MDUwMjIsLTU5NTYxMjAwMywtMTcwODE5MDkyMSwtMjAwNDc3
-NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC0xNzk3MTMyMzQ4LC
-0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LDE2MzA4
-MTg0OTgsMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMzc2NDUxNz
-czLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC0xNTE4
-MDEwMDE2XX0=
+eyJoaXN0b3J5IjpbLTE4NzY2NDgyMzQsLTk5NDEyMjkxNywtNT
+k3NDA1MDIyLC01OTU2MTIwMDMsLTE3MDgxOTA5MjEsLTIwMDQ3
+NzQ5NTQsMzM5MjI4ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OC
+wtMTU1Mjk5MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMw
+ODE4NDk4LDE2OTI5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MT
+c3Myw2NDc3MDk1MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUx
+ODAxMDAxNl19
 -->
