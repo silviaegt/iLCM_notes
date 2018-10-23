@@ -13,6 +13,8 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Download pre-requisites
 	+ Docker CE:
 		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
+		• sudo groupadd docker
+• sudo usermod -aG docker $USER
 		+ [Windows 10 Pro](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
 		+ Windows 10 Home -- you will need to install [DockerToolbox](https://docs.docker.com/toolbox/toolbox_install_windows/); to check your installation has been sucessful click [here](https://docs.docker.com/toolbox/toolbox_install_windows/#step-3-verify-your-installation) (you might need to uninstall and install again your VirtualBox)
 		+ Mac
@@ -197,11 +199,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIxNTA5MDE0LC0xNzk3MTMyMzQ4LC0xNT
-UyOTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LDE2MzA4MTg0
-OTgsMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMzc2NDUxNzczLD
-Y0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC0xNTE4MDEw
-MDE2LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwNDMwOTIwODIsLT
-ExMTExNTk0MDgsLTIzNTc2NDEzOCwxNTkxOTg1MjE4LC0yMDcx
-MzEwNTY4XX0=
+eyJoaXN0b3J5IjpbNDIxNjIxNzQ3LDIyMTUwOTAxNCwtMTc5Nz
+EzMjM0OCwtMTU1Mjk5MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3
+NCwxNjMwODE4NDk4LDE2OTI5MjU4MywtMTQ5NjczMDM3NywtMT
+M3NjQ1MTc3Myw2NDc3MDk1MTYsNDQyODE5NzI2LDIzODg0NjUw
+NiwtMTUxODAxMDAxNiwtNzAwMjMzOTQ1LDM3OTEzNTU3NiwyMD
+QzMDkyMDgyLC0xMTExMTU5NDA4LC0yMzU3NjQxMzgsMTU5MTk4
+NTIxOF19
 -->
