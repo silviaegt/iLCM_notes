@@ -114,8 +114,11 @@ In the Importer-tab the user can upload his own text data. The data will then be
 For pre-processed data (iLCM style) it should be stored in "
 2. The csv files will then be displayed inside the import subtab. You have to choose one of them and then click the import button.
 3. Once the file is loaded into the tool, you can either check whether the data is imported correctly or directly start the mapping. 
+-----
 
-after pre-processing with R
+a) after pre-processing with R 
+b) Upload your two csv files to your Rstudio Environment
+c) then move them to ShinyApp -- TMCA -- Beip
 
 ### Metadata
 
@@ -214,7 +217,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NzI0ODUxOSwtMTg3NjY0ODIzNCwtOT
+eyJoaXN0b3J5IjpbMTE0MjkwNzY1OSwtMTg3NjY0ODIzNCwtOT
 k0MTIyOTE3LC01OTc0MDUwMjIsLTU5NTYxMjAwMywtMTcwODE5
 MDkyMSwtMjAwNDc3NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC
 0xNzk3MTMyMzQ4LC0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3
