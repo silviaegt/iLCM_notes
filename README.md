@@ -47,10 +47,13 @@ For commodity you can type the following commands in order to
 	3.3 Then type: `docker-compose up -d`
 	3.4 Proof if everything was downloaded properly with `docker ps`
 > \* Windows: something like `cd
-> C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
+>C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
 
-Ma
+
+
+Make sure you have enough space in your system, if not, it is better to change your docker to your home directory you can do this by following this instructions: https://linuxconfig.org/how-to-move-docker-s-default-var-lib-docker-to-another-directory-on-ubuntu-debian-linux
+
 ExecStart=/usr/bin/dockerd -g /home/luba/docker -H fd://
 
 #### Setting Solr
@@ -209,7 +212,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDExNzg1NSwtOTk0MTIyOTE3LC01OT
+eyJoaXN0b3J5IjpbMTMwMDQ0Nzc4MywtOTk0MTIyOTE3LC01OT
 c0MDUwMjIsLTU5NTYxMjAwMywtMTcwODE5MDkyMSwtMjAwNDc3
 NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC0xNzk3MTMyMzQ4LC
 0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LDE2MzA4
