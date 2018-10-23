@@ -13,7 +13,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 2. Download pre-requisites
 	+ Docker CE:
 		+ [Ubuntu](https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-using-the-repository)
-		
+		sudo install docker
 		• sudo groupadd docker
 		• sudo usermod -aG docker $USER
 		+ [Windows 10 Pro](https://store.docker.com/editions/community/docker-ce-desktop-windows) -- you will need to create an account and log in
@@ -200,11 +200,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NTQsMz
-M5MjI4ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5
-MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LD
-E2OTI5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3
-MDk1MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNi
-wtNzAwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTEx
-MTU5NDA4XX0=
+eyJoaXN0b3J5IjpbLTU5NTYxMjAwMywtMTcwODE5MDkyMSwtMj
+AwNDc3NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC0xNzk3MTMy
+MzQ4LC0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LD
+E2MzA4MTg0OTgsMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMzc2
+NDUxNzczLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC
+0xNTE4MDEwMDE2LC03MDAyMzM5NDUsMzc5MTM1NTc2LDIwNDMw
+OTIwODJdfQ==
 -->
