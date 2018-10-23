@@ -50,6 +50,7 @@ For commodity you can type the following commands in order to
 > C:\Users\username\Documents\Install_iLCM\Install_iLCM\tmca`(cd =change
 > directory)
 
+Ma
 ExecStart=/usr/bin/dockerd -g /home/luba/docker -H fd://
 
 #### Setting Solr
@@ -208,11 +209,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NDEyMjkxNywtNTk3NDA1MDIyLC01OT
-U2MTIwMDMsLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NTQsMzM5MjI4
-ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5MzkzMC
-w0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OTI5
-MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1MT
-YsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNiwtNzAw
-MjMzOTQ1XX0=
+eyJoaXN0b3J5IjpbLTUzNDExNzg1NSwtOTk0MTIyOTE3LC01OT
+c0MDUwMjIsLTU5NTYxMjAwMywtMTcwODE5MDkyMSwtMjAwNDc3
+NDk1NCwzMzkyMjg4MzcsMjIxNTA5MDE0LC0xNzk3MTMyMzQ4LC
+0xNTUyOTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LDE2MzA4
+MTg0OTgsMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMzc2NDUxNz
+czLDY0NzcwOTUxNiw0NDI4MTk3MjYsMjM4ODQ2NTA2LC0xNTE4
+MDEwMDE2XX0=
 -->
