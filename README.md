@@ -29,7 +29,7 @@ Based on: https://ilcm.informatik.uni-leipzig.de/download/starting_guide.pdf
 #### Downloading
 1. Download the zip file (install_iLCM.zip) 
 2. Copy the iLCM folder in your "home"
-	+ Linux: /home/christian/
+	+ Linux: /home/christian/ paste here and then add permissions with `sudo chmod -R 777 /home/christian/iLCM/`
 	+ Windows: C:/User/christian/
 		+ Right click your folder, select "Properties", go to "Security" and add "Everyone" to the group of users that can edit this folder (Number of groups or users -- Edit -- write "Everyone" in the empty box, then click Add and afterwards make sure you click all boxes in the Permissions section)
 	+ Mac: /Users/christiankahmann/
@@ -200,11 +200,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ3NzQ5NTQsMzM5MjI4ODM3LDIyMT
-UwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5MzkzMCw0ODQxNjAw
-MDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OTI5MjU4MywtMT
-Q5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1MTYsNDQyODE5
-NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNiwtNzAwMjMzOTQ1LD
-M3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTExMTU5NDA4LC0yMzU3
-NjQxMzhdfQ==
+eyJoaXN0b3J5IjpbLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NTQsMz
+M5MjI4ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5
+MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LD
+E2OTI5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3
+MDk1MTYsNDQyODE5NzI2LDIzODg0NjUwNiwtMTUxODAxMDAxNi
+wtNzAwMjMzOTQ1LDM3OTEzNTU3NiwyMDQzMDkyMDgyLC0xMTEx
+MTU5NDA4XX0=
 -->
