@@ -198,8 +198,9 @@ Didn't really understand what happens here
 ## 4. Work with your collection
 
 
-#
+### Edit your "blacklist"
 
+Scripts 
 First go to "Task Scheduler"; select your collection and the analysis you want to run
 
 (didnt' understand what 
@@ -223,7 +224,7 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjg4Nzg5MSw0NTYwOTM5MDIsLTE4Nz
+eyJoaXN0b3J5IjpbLTUxNTY1MDc4MSw0NTYwOTM5MDIsLTE4Nz
 Y2NDgyMzQsLTk5NDEyMjkxNywtNTk3NDA1MDIyLC01OTU2MTIw
 MDMsLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NTQsMzM5MjI4ODM3LD
 IyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5MzkzMCw0ODQx
