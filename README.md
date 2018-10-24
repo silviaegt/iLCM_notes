@@ -197,6 +197,9 @@ Didn't really understand what happens here
 
 ## 4. Work with your collection
 
+
+#
+
 First go to "Task Scheduler"; select your collection and the analysis you want to run
 
 (didnt' understand what 
@@ -220,11 +223,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU2MDkzOTAyLC0xODc2NjQ4MjM0LC05OT
-QxMjI5MTcsLTU5NzQwNTAyMiwtNTk1NjEyMDAzLC0xNzA4MTkw
-OTIxLC0yMDA0Nzc0OTU0LDMzOTIyODgzNywyMjE1MDkwMTQsLT
-E3OTcxMzIzNDgsLTE1NTI5OTM5MzAsNDg0MTYwMDA3LC0yNTcy
-ODgyNzQsMTYzMDgxODQ5OCwxNjkyOTI1ODMsLTE0OTY3MzAzNz
-csLTEzNzY0NTE3NzMsNjQ3NzA5NTE2LDQ0MjgxOTcyNiwyMzg4
-NDY1MDZdfQ==
+eyJoaXN0b3J5IjpbMTIzMjg4Nzg5MSw0NTYwOTM5MDIsLTE4Nz
+Y2NDgyMzQsLTk5NDEyMjkxNywtNTk3NDA1MDIyLC01OTU2MTIw
+MDMsLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NTQsMzM5MjI4ODM3LD
+IyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1Mjk5MzkzMCw0ODQx
+NjAwMDcsLTI1NzI4ODI3NCwxNjMwODE4NDk4LDE2OTI5MjU4My
+wtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2NDc3MDk1MTYsNDQy
+ODE5NzI2XX0=
 -->
