@@ -200,7 +200,10 @@ Didn't really understand what happens here
 
 ### Edit your "blacklist"
 
-Scripts -- 
+Scripts -- Blacklist
+
+
+
 First go to "Task Scheduler"; select your collection and the analysis you want to run
 
 (didnt' understand what 
@@ -224,11 +227,11 @@ Pre-processing??
 ### Context Volatility
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Nzk4MDUxNjksLTUxNTY1MDc4MSw0NT
-YwOTM5MDIsLTE4NzY2NDgyMzQsLTk5NDEyMjkxNywtNTk3NDA1
-MDIyLC01OTU2MTIwMDMsLTE3MDgxOTA5MjEsLTIwMDQ3NzQ5NT
-QsMzM5MjI4ODM3LDIyMTUwOTAxNCwtMTc5NzEzMjM0OCwtMTU1
-Mjk5MzkzMCw0ODQxNjAwMDcsLTI1NzI4ODI3NCwxNjMwODE4ND
-k4LDE2OTI5MjU4MywtMTQ5NjczMDM3NywtMTM3NjQ1MTc3Myw2
-NDc3MDk1MTZdfQ==
+eyJoaXN0b3J5IjpbLTQxODUzOTEyMCwtNTE1NjUwNzgxLDQ1Nj
+A5MzkwMiwtMTg3NjY0ODIzNCwtOTk0MTIyOTE3LC01OTc0MDUw
+MjIsLTU5NTYxMjAwMywtMTcwODE5MDkyMSwtMjAwNDc3NDk1NC
+wzMzkyMjg4MzcsMjIxNTA5MDE0LC0xNzk3MTMyMzQ4LC0xNTUy
+OTkzOTMwLDQ4NDE2MDAwNywtMjU3Mjg4Mjc0LDE2MzA4MTg0OT
+gsMTY5MjkyNTgzLC0xNDk2NzMwMzc3LC0xMzc2NDUxNzczLDY0
+NzcwOTUxNl19
 -->
